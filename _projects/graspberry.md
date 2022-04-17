@@ -7,6 +7,7 @@ importance: 1
 category: work
 ---
 
+PI: <a href="https://staff.lincoln.ac.uk/gcielniak" target="blank">Dr. Grzegorz Cielniak</a><br>
 Project year: 2020-21
 
 <div class="row justify-content-md-center">
@@ -26,23 +27,29 @@ Project year: 2020-21
 
 ##### Low-level control interface for the manipulator
 
-Developed the low-level control interface using CANOpen (along with Dr. Grzegorz Cielniak who provided amazing base code!) for the manipulator and integrated it with the ROS ecosystem using ros_control. I also worked with a colleague to integrate the manipulator with Moveit!.
+Developed the low-level control interface using CANOpen (along with Dr. Grzegorz Cielniak, who provided amazing base code!) for the manipulator and integrated it with the ROS ecosystem using ros_control. I also worked with a colleague to integrate the manipulator with Moveit!.
+
+<div class="row justify-content-md-center">
+    <div class="col-lg-6">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/projects/graspberry-robot.gif' | relative_url }}" alt="" data-zoomable title="example image"/>
+    </div>
+</div>
 
 <br>
 
 ##### Integration of motion planning and scheduling package 
 
-In another project, I worked with one of my colleagues to refactor their work and integrate with the project code. I also added some visualizations (e.g., arm workspace, planned and actual path) as you can see in the video. Moreover, I slighly helped another colleague to develop realtistic strawberry models in ROS/ Gazebo which can be used to simulate the grasping scenario in Gazebo.
+In another project, I worked with one of my colleagues to refactor their work and integrate it with the project code. I also added some visualizations (e.g., arm workspace, planned and actual path) that you can see in the image below. Moreover, I slightly helped another colleague to develop realistic strawberry models in ROS/ Gazebo, which can be used to simulate the grasping scenario in Gazebo.
 
 <div class="row justify-content-md-center">
-    <div class="col-lg-10">
+    <div class="col-lg-8">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/projects/graspberry-planning-demo.gif' | relative_url }}" alt="" data-zoomable title="example image"/>
     </div>
 </div>
 
 <br>
 
-##### Software management
+##### Development and version control
 
-During the project, I also contributed to the software management for the multile packages in the project repository.
+I also contributed to the development and version control for some of the common packages in the project repository (e.g., launch system, simulation).
 
