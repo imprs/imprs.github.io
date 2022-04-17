@@ -12,8 +12,8 @@ Project year: 2017
 A simple line following AR Drone 2.0 in Gazebo using ROS and MATLAB.
 
 Feel free to check out the
-<a href="https://www.youtube.com/watch?v=JmxZss-BWiM" target="blank">video</a>. <!-- and
-<a href="https://github.com/imprs/ur5_barrett_planning" target="blank">code</a>. -->
+<a href="https://www.youtube.com/watch?v=JmxZss-BWiM" target="blank">video</a> and
+<a href="https://github.com/imprs/ARDrone/blob/master/MATLAB/ardrone.m" target="blank">code</a>.
 
 <div class="row justify-content-md-center">
     <div class="col-lg-16">
