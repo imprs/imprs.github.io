@@ -9,9 +9,7 @@ category: work
 
 Project year: 2018
 
-The project aimed to create a simple robot reachability tool. Here, we generate the random pose in 6D from
-workspace volume and test it for reachability. If it is reachable, then the trajectory is executed. ROS and
-Moveit! were used in the project. 
+The main idea was to create a simple robot reachability test tool. Here, we generate the random pose in 6D from workspace volume and test it for reachability. If it is reachable, then the trajectory is executed. ROS and Moveit! were used in the project. 
 
 Feel free to check out the
 <a href="https://www.youtube.com/watch?v=4QNv7PPcg18" target="blank">video</a> and
