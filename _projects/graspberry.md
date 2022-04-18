@@ -7,12 +7,12 @@ importance: 1
 category: work
 ---
 
-PI: <a href="https://staff.lincoln.ac.uk/gcielniak" target="blank">Dr. Grzegorz Cielniak</a><br>
+PI: <a href="https://staff.lincoln.ac.uk/gcielniak" target="blank">Dr. Grzegorz Cielniak</a> and <a href="https://staff.lincoln.ac.uk/mhanheide" target="blank">Prof. Marc Hanheide</a><br>
 Project year: 2020-21
 
 <div class="row justify-content-md-center">
     <div class="col-lg-8">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/projects/graspberry-poster.jpeg' | relative_url }}" alt="" data-zoomable title="example image"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/projects/graspberry-poster.jpeg' | relative_url }}" alt="" data-zoomable title="graspberry-poster"/>
     </div>
 </div>
 <div class="caption">
@@ -31,7 +31,7 @@ Developed the low-level control interface using CANOpen (along with Dr. Grzegorz
 
 <div class="row justify-content-md-center">
     <div class="col-lg-6">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/projects/graspberry-robot.gif' | relative_url }}" alt="" data-zoomable title="example image"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/projects/graspberry-robot.gif' | relative_url }}" alt="" data-zoomable title="graspberry-robot"/>
     </div>
 </div>
 
@@ -43,7 +43,7 @@ In another project, I worked with one of my colleagues to refactor their work an
 
 <div class="row justify-content-md-center">
     <div class="col-lg-8">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/projects/graspberry-planning-demo.gif' | relative_url }}" alt="" data-zoomable title="example image"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/projects/graspberry-planning-demo.gif' | relative_url }}" alt="" data-zoomable title="graspberry-planning-demo"/>
     </div>
 </div>
 

@@ -17,7 +17,7 @@ Feel free to check out the
 
 <div class="row justify-content-md-center">
     <div class="col-lg-16">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/projects/line-following-drone.gif' | relative_url }}" alt="" data-zoomable title="example image"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/projects/line-following-drone.gif' | relative_url }}" alt="" data-zoomable title="line-following-drone"/>
     </div>
 </div>
 
