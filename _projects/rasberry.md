@@ -12,7 +12,7 @@ Project year: 2019
 
 I worked on mobile robot autonomy in this project. Some of the tools I used are AMCL for robot localization, ROS Nav Stack and <a href="https://github.com/LCAS/topological_navigation" target="blank">topological navigation</a>. We used the Thorvald robot from Saga Robotics (see below).
 
-During this project, I also got an opportunity to visit The Norwegian University of Life Sciences (NMBU) in Norway for Lincon-NMBU-Saga summer workshop. A glimpse from our code camp:
+During this project, I also got an opportunity to visit The Norwegian University of Life Sciences (NMBU) in Norway for Lincon-NMBU-Saga summer workshop. A glimpse from our workshop:
 <br><br>
 
 <div class="row justify-content-md-center">
