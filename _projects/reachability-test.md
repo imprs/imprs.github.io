@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Rechability Test
-description: Manipulator rechability test with the randomly generated pose.
+title: Reachability Test
+description: Manipulator reachability test with the randomly generated pose.
 img: /assets/img/projects/rechability-test.gif
 importance: 2
 category: work
@@ -17,7 +17,7 @@ Feel free to check out the
 
 <div class="row justify-content-md-center">
     <div class="col-lg-8">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/projects/rechability-test.gif' | relative_url }}" alt="" data-zoomable title="rechability-test"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/projects/rechability-test.gif' | relative_url }}" alt="" data-zoomable title="reachability-test"/>
     </div>
 </div>
 
