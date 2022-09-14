@@ -7,8 +7,7 @@ importance: 4
 category: work
 ---
 
-#### TS-Rep: Time series representation learning in robotics using self-supervised contrastive learning
-
+#### TS-Rep: Self-supervised time series representation learning for robot sensor data
 
 <br />
 Publication status: under prepration.
