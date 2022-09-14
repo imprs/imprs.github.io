@@ -12,5 +12,9 @@ category: work
 <br />
 Publication status: under prepration.
 
-This page will be updated soon. Please visit again!
+Code: based on PyTorch 1.10 (will be released soon)
+
+Processed Datasets: will be released soon
+
+Thank you for visiting. This page will be updated soon. Please visit again!
 
