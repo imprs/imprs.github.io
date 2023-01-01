@@ -8,7 +8,7 @@ category: work
 ---
 
 PI: <a href="https://staff.lincoln.ac.uk/gcielniak" target="blank">Dr. Grzegorz Cielniak</a> and <a href="https://staff.lincoln.ac.uk/mhanheide" target="blank">Prof. Marc Hanheide</a><br>
-Project year: 2020-21
+Project year: 2019-21
 
 <div class="row justify-content-md-center">
     <div class="col-lg-8">
