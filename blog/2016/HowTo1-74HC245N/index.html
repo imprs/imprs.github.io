@@ -11,7 +11,7 @@
   Pratik  Somaiya
 
 
-  | blog
+  | HowTo 1 - 74HC245N as a logic level converter
 
 </title>
 <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
@@ -37,7 +37,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤖</text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/blog/2016/HowTo1-74HC245N/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -115,14 +115,10 @@
             <a class="nav-link" href="/blog/">
               blog
               
-              <span class="sr-only">(current)</span>
-              
             </a>
           </li>
           
           <!-- Other pages -->
-          
-          
           
           
           
@@ -182,38 +178,162 @@
     <!-- Content -->
 
     <div class="container mt-5">
-      <div class="post">
+      
 
-  <div class="header-bar">
-    <h1>blog</h1>
-    <h2></h2>
-  </div>
+<div class="post">
 
+  <header class="post-header">
+    <h1 class="post-title">HowTo 1 - 74HC245N as a logic level converter</h1>
+    <p class="post-meta">July 27, 2016</p>
+  </header>
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2016/HowTo1-74HC245N/">HowTo 1 - 74HC245N as a logic level converter</a></h3>
-        <p class="post-meta">July 27, 2016</p>
-        <p>74HC245N as a logic level converter</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2016/ROS2-ROS-basics/">ROS 2 - ROS basics</a></h3>
-        <p class="post-meta">May 22, 2016</p>
-        <p>Robot Operating System (ROS) basics</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2016/ROS1-installation/">ROS 1 - ROS Installation on Ubuntu System</a></h3>
-        <p class="post-meta">March 28, 2016</p>
-        <p>Robot Operating System (ROS) Installation on Ubuntu System</p>
-      </li>
-    
-  </ul>
+  <article class="post-content">
+    <p>Hello,
+In this video you will get idea about how to use 74HC245N as a logic level converter. It can be used for 3.3V to 5V conversion or 5V to 3.3V.</p>
+
+<p><br /></p>
+
+<iframe width="600" height="337.5" src="https://www.youtube.com/embed/HKxU4VaB8kY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<p><br /></p>
+
+<p>For example I have used here Ultrasonic Sensor (5V compatible) with Raspberry pi 3(3.3V compatible).</p>
+
+<p>I have made this circuit using  <a href="https://fritzing.org/" target="blank">Fritzing</a>.</p>
+
+<div class="col-sm mt-3 mt-md-0">
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/howto1-ultrasound.png" data-zoomable="" />
+</div>
+
+<p><br /></p>
+
+<h6 id="connections"><strong>Connections</strong>:</h6>
+
+<table>
+  <thead>
+    <tr>
+      <th>74HC245N Pin</th>
+      <th>Direction B0</th>
+      <th>Direction A0</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Pin 1</td>
+      <td>DIR</td>
+      <td>Gnd</td>
+    </tr>
+    <tr>
+      <td>Pin 2</td>
+      <td>A0</td>
+      <td>Raspberry Pi 3_ pin-11 (GPIO17)</td>
+    </tr>
+    <tr>
+      <td>Pin 10</td>
+      <td>Gnd</td>
+      <td>Gnd</td>
+    </tr>
+    <tr>
+      <td>Pin 18</td>
+      <td>B0</td>
+      <td>Echo of Ultrasonic sensor</td>
+    </tr>
+    <tr>
+      <td>Pin 19</td>
+      <td>OE</td>
+      <td>Gnd</td>
+    </tr>
+    <tr>
+      <td>Pin 20</td>
+      <td>Vcc</td>
+      <td>3.3V</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /></p>
+
+<p>Now, in second case I have used  L293D-dc motor driver (5V compatible) with Raspberry pi 3(3.3V compatible).</p>
+
+<div class="col-sm mt-3 mt-md-0">
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/howto1-l293d.jpg" data-zoomable="" />
+</div>
+
+<p><br /></p>
+
+<h6 id="connections-1"><strong>Connections</strong>:</h6>
+
+<table>
+  <thead>
+    <tr>
+      <th>74HC245N Pin</th>
+      <th>Direction A0</th>
+      <th>Direction B0</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Pin 1</td>
+      <td>DIR</td>
+      <td>5V</td>
+    </tr>
+    <tr>
+      <td>Pin 2</td>
+      <td>A0</td>
+      <td>Raspberry Pi 3_ pin15 (GPIO22)</td>
+    </tr>
+    <tr>
+      <td>Pin 3</td>
+      <td>A1</td>
+      <td>Raspberry Pi 3_ pin18 (GPIO24)</td>
+    </tr>
+    <tr>
+      <td>Pin 10</td>
+      <td>Gnd</td>
+      <td>Gnd</td>
+    </tr>
+    <tr>
+      <td>Pin 17</td>
+      <td>B1</td>
+      <td>Motor Driver input-2 (pin-7)</td>
+    </tr>
+    <tr>
+      <td>Pin 18</td>
+      <td>B0</td>
+      <td>Motor Driver input-1 (pin-2)</td>
+    </tr>
+    <tr>
+      <td>Pin 19</td>
+      <td>OE</td>
+      <td>Gnd</td>
+    </tr>
+    <tr>
+      <td>Pin 20</td>
+      <td>Vcc</td>
+      <td>5V</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br />
+Datasheets for 74HC245N and L293D can be found here:</p>
+
+<ol>
+  <li>
+    <p><a href="https://www.nxp.com/documents/data_sheet/74HC_HCT245.pdf" target="blank">74HC245N</a>.</p>
+  </li>
+  <li>
+    <p><a href="https://www.ti.com/lit/ds/symlink/l293.pdf" target="blank">L293D</a>.</p>
+  </li>
+</ol>
+
+<p>If you have any questions feel free to ask.</p>
+
+<p>Happy making :)</p>
+
+  </article>
 
   
-
 
 </div>
 

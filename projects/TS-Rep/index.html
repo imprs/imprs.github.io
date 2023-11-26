@@ -11,7 +11,7 @@
   Pratik  Somaiya
 
 
-  | blog
+  | TS-Rep
 
 </title>
 <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
@@ -37,7 +37,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤖</text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/TS-Rep/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -111,18 +111,14 @@
           </li>
           
           <!-- Blog -->
-          <li class="nav-item active">
+          <li class="nav-item ">
             <a class="nav-link" href="/blog/">
               blog
-              
-              <span class="sr-only">(current)</span>
               
             </a>
           </li>
           
           <!-- Other pages -->
-          
-          
           
           
           
@@ -184,36 +180,28 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1>blog</h1>
-    <h2></h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">TS-Rep</h1>
+    <p class="post-description"></p>
+  </header>
 
+  <article>
+    <h4 id="ts-rep-self-supervised-time-series-representation-learning-from-robot-sensor-data">TS-Rep: Self-supervised time series representation learning from robot sensor data</h4>
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2016/HowTo1-74HC245N/">HowTo 1 - 74HC245N as a logic level converter</a></h3>
-        <p class="post-meta">July 27, 2016</p>
-        <p>74HC245N as a logic level converter</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2016/ROS2-ROS-basics/">ROS 2 - ROS basics</a></h3>
-        <p class="post-meta">May 22, 2016</p>
-        <p>Robot Operating System (ROS) basics</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2016/ROS1-installation/">ROS 1 - ROS Installation on Ubuntu System</a></h3>
-        <p class="post-meta">March 28, 2016</p>
-        <p>Robot Operating System (ROS) Installation on Ubuntu System</p>
-      </li>
-    
-  </ul>
+<p><br />
+<a href="https://sslneurips22.github.io/paper_pdfs/paper_74.pdf" target="blank">Paper,</a>
+<a href="https://github.com/imprs/TS-Rep" target="blank">Code,</a>
+and Posters: <a href="https://zenodo.org/record/7135205/" target="blank">M2L Summer School</a>, <a href="https://tinyurl.com/SSL-NeurIPS22-Poster/" target="blank">SSL-NeurIPS2022</a></p>
 
-  
+<p>In this paper, we propose TS-Rep, a self-supervised method that learns representations from multi-modal varying-length time series sensor data from real robots. TS-Rep is based on a simple yet effective technique for triplet learning, where we randomly split the time series into two segments to form anchor and positive while selecting random subseries from the other time series in the mini-batch to construct negatives. We additionally use the nearest neighbour in the representation space to increase the diversity in the positives. For evaluation, we perform a clusterability analysis on representations of three heterogeneous robotics datasets. Then learned representations are applied for anomaly detection, and our method consistently performs well. A classifier trained on TS-Rep learned representations outperforms unsupervised methods and performs close to the fully-supervised methods for terrain classification. Furthermore, we show that TS-Rep is, on average, the fastest method to train among the baselines. Our code is available at <a href="https://github.com/imprs/TS-Rep" target="blank">https://github.com/imprs/TS-Rep</a>.</p>
 
+<div class="row justify-content-md-center">
+    <div class="col-lg-16">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/projects/methodology.png" alt="" data-zoomable="" title="ts-rep" />
+    </div>
+</div>
+
+  </article>
 
 </div>
 
