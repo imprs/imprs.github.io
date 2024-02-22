@@ -17,7 +17,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-Namaste! I am Pratik. I am a software engineer at the [Oxford Robotics Institute (ORI)](https://ori.ox.ac.uk/), University of Oxford (UK), where I work on projects related to responsible AI for autonomous systems and brain computer interfaces.
+Namaste! I am Pratik. I am a Robotics Software Engineer at the [Oxford Robotics Institute (ORI)](https://ori.ox.ac.uk/), University of Oxford (UK), where I work on projects related to responsible AI for autonomous systems and brain computer interfaces.
 
 I did my MSc (by Research) in Computer Science (with a focus on robotics) at the [Lincoln Centre for Autonomous Systems Research (L-CAS)](https://lcas.lincoln.ac.uk/wp/), University of Lincoln (UK), where I worked with [Dr. Grzegorz Cielniak](https://staff.lincoln.ac.uk/gcielniak), [Prof. Marc Hanheide](https://staff.lincoln.ac.uk/mhanheide), and [Dr. Riccardo Polvara](https://staff.lincoln.ac.uk/rpolvara).
 
