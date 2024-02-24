@@ -7,10 +7,6 @@ first_name: Pratik
 middle_name:
 last_name: Somaiya
 email: imprs@pratiksomaiya.in
-first_name: Pratik
-middle_name:
-last_name: Somaiya
-email: imprs@pratiksomaiya.in
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -20,9 +16,8 @@ footer_text: >
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 🤖  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-icon: 🤖 # the emoji used as the favicon
 url:  https://pratiksomaiya.in # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
 last_updated: true # set to true if you want to display last updated in the footer
@@ -73,7 +68,6 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: imprs # your GitHub user name
 github_username: imprs # your GitHub user name
 gitlab_username: # your GitLab user name
 x_username: I_m_PRS # your X handle
@@ -281,8 +275,6 @@ jekyll-archives:
 
 scholar:
 
-  last_name: Somaiya
-  first_name: [Pratik, S.]
   last_name: Somaiya
   first_name: [Pratik, S.]
 
